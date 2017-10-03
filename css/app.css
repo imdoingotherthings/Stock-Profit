@@ -1,0 +1,23 @@
+* {
+  font-family: Avenir, sans-serif;
+}
+
+.stock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.bought, .account, .sold, .fee, .share {
+  margin: 1%;
+  padding: 0;
+}
+
+#btn {
+  margin: 2%;
+  padding: 0;
+}
