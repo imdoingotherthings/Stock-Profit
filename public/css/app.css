@@ -2,7 +2,12 @@
   font-family: Avenir, sans-serif;
 }
 
-.stock {
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* .stock {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -20,4 +25,4 @@
 #btn {
   margin: 2%;
   padding: 0;
-}
+} */

@@ -7,37 +7,42 @@
   <link rel="stylesheet" href="css/app.css" type="text/css">
 </head>
 <body>
+
   <div class="stock">
     <div class="account">
       <label for="acc">Account Balance</label>
-      <input id="acc" type="text" placeholder="Enter a number">
-    </div>
-
-    <div class="sold">
-      <label for="#sold">Sold Price:</label>
-      <input id="sold"type="text" placeholder="Enter numbers only!">
+      <input id="acc" type="text">
     </div>
 
     <div class="bought">
-      <label for="#bought">Bought Price:</label>
-      <input id="bought"type="text" placeholder="Enter numbers only!">
+        <label for="#bought">Bought Price:</label>
+        <input id="bought"type="text">
+      </div>
+
+    <div class="sold">
+      <label for="#sold">Sold Price:</label>
+      <input id="sold"type="text">
     </div>
 
     <div class="fee">
       <label for="#fee">Round Trip Broker Fee: </label>
-      <input id="fee" type="text" placeholder="If no fees, enter 0">
+      <input id="fee" type="text">
     </div>
 
     <div class="share">
       <label for="shares">How many shares?</label>
-      <input id="shares" type="text" placeholder="Enter a number">
+      <input id="shares" type="text">
     </div>
-
-    <input id="btn" type="submit">
+    <button id="btn">Submit</button>
+    <button id='reset'>Reset</button>
+    <p id='gains'></p>
+    <p id='loss'></p>
     <p id="item"></p>
     <p id="buy"></p>
     <p id="sell"></p>
   </div>
+
   <script src="js/app.js"></script>
+
 </body>
 </html>
