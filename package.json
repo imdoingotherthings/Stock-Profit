@@ -1,0 +1,19 @@
+{
+  "name": "stock_market_calculation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imdoingotherthings/Stock-Profit.git"
+  },
+  "author": "Asai Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imdoingotherthings/Stock-Profit/issues"
+  },
+  "homepage": "https://github.com/imdoingotherthings/Stock-Profit#readme"
+}
