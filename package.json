@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/imdoingotherthings/Stock-Profit/issues"
   },
-  "homepage": "https://github.com/imdoingotherthings/Stock-Profit#readme"
+  "homepage": "https://github.com/imdoingotherthings/Stock-Profit#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
